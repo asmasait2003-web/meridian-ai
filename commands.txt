@@ -19,3 +19,7 @@ touch backend/agent/{tools,prompts,middleware,agents}.py
 touch backend/api/{schemas,endpoints,main}.py
 touch backend/tests/{conftest,test_api,test_modes_and_middleware}.py
 
+
+uv run python -c "from config.settings import settings; 
+from langchain_google_genai import ChatGoogleGenerativeAI as G; 
+print(G(model=settings.llm_model_name, google_api_key=settings.GOOGLE_API_KEY).invoke('Reply with exactly: hello').text)"
