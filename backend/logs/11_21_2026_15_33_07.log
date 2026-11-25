@@ -1,0 +1,5 @@
+{"source": "local://aldermoor_procurement_policy.pdf", "chunks": 1, "timestamp": "2026-11-21T10:03:07.557842Z", "level": "info", "severity": "INFO", "event": "Embedding chunks and adding to vector store"}
+{"path": "/Users/asma/Documents/Project1/meridian-ai/.meridian/chroma", "timestamp": "2026-11-21T10:03:07.997388Z", "level": "info", "severity": "INFO", "event": "Using local Chroma vector store"}
+HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-001:batchEmbedContents "HTTP/1.1 200 OK"
+{"source": "local://aldermoor_procurement_policy.pdf", "chunks": 1, "timestamp": "2026-11-21T10:03:09.140061Z", "level": "info", "severity": "INFO", "event": "Embedding chunks and adding to vector store"}
+HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-001:batchEmbedContents "HTTP/1.1 200 OK"

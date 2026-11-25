@@ -1,0 +1,3 @@
+{"path": "/Users/asma/Documents/Project1/meridian-ai/.meridian/chroma", "timestamp": "2026-11-01T08:03:55.143771Z", "level": "info", "severity": "INFO", "event": "Using local Chroma vector store"}
+HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-001:batchEmbedContents "HTTP/1.1 200 OK"
+HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-001:batchEmbedContents "HTTP/1.1 200 OK"
