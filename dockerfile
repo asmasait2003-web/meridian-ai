@@ -28,8 +28,9 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY backend/ ./backend/
 
 # Copy environment variables and credentials (Uncomment during local development)
-COPY .env ./
+# COPY .env ./
 # COPY credentials/ ./credentials/
+
 # Copy built frontend static files from the frontend-builder stage
 COPY --from=frontend-builder /app/frontend/dist /app/frontend/dist
 
